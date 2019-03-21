@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			#container{
+				width: 200px;
+				height: 50px;
+				border: 2px black solid;
+				border-radius: 20px;
+			}
+			#container01{
+				animation: rechager 2s infinite;
+			}
+			@-webkit-keyframes rechager{
+				0%
+				{
+					width: 0px;
+					height: 50px;
+					background-color: red;
+					border-radius: 20px;
+				}
+	
+				100%
+				{
+					width: 200px;
+					height: 50px;
+					background-color: greenyellow;
+					border-radius: 20px;
+				}
+			}
+			#container
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<div id="container01"></div>
+			
+		</div>
+	</body>
+</html>
