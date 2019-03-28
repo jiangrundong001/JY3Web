@@ -1,0 +1,63 @@
+#signal
+{
+	height: 30px;
+	background-color: #000000;
+	display: flex;
+	justify-content: space-between;
+}
+.signSuDiv
+{
+	height: 100%;
+/*	width: 30px;*/
+}
+#leftsign
+{
+	flex: 0.4;
+	display: flex;
+	align-items: center;
+}
+#centersign
+{
+	flex: 0.4;
+	display: flex;
+	/*justify-content: center;*/
+	align-items: center;
+}
+#rightsign
+{
+	flex: 0.4;
+	display: flex;
+	align-items: center;
+}
+#leftsign ul li
+{
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	margin-left: 2px;
+	border: 1px solid white;
+	/*background-color: #000000;*/
+}
+.havesign
+{
+	background-color: white;
+}
+#notHavesign
+{
+	border: 1px solid white;
+}
+#leftsign ul
+{
+	list-style: none;
+	display: flex;
+	margin-left: 5px;
+}
+#leftsign span
+{
+	font-size: 14px;
+}
+#signal img
+{
+	width: 23px;
+	height: 20px;
+}

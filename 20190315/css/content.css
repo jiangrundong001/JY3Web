@@ -1,0 +1,52 @@
+#content
+{
+	flex: 1;
+	display: flex;
+	justify-content: center;
+}
+#content ul
+{
+	width: 95%;
+	height: 59px;
+	background-color: grey;
+	display: flex;
+	align-items: center;
+}
+#content ul li
+{
+	display: flex;
+
+}
+#headphoto
+{
+	flex: 0.2;
+	width: 150px;
+	height: 57px;
+}
+#headphoto 
+{
+	background-image: url(../img/330418-16110F2513482.jpg);
+	background-size: cover;
+	/*width: 150px;
+	height: 57opx;*/
+}
+#centerMsg
+{
+	flex:0.6;
+	height: 100%;
+}
+#rightMsg
+{
+	flex: 0.2;
+	height: 100%;
+}
+#centerMsg span
+{
+	font-size: 10px;
+}
+#content oneMsg
+{
+	width: 95%;
+	height: 95px;
+	background-color: grey;
+}

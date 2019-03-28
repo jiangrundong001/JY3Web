@@ -1,0 +1,29 @@
+#title
+{
+	height: 50px;
+	background-color: #A52A2A;
+	display: flex;
+}
+#leftsign
+{
+	flex: 0.6;
+	height: 100%;
+	text-indent: 5px;
+}
+#rightsign
+{
+	flex: 0.4;
+	height: 100%;
+	justify-content: space-around;
+}
+#rightsign img
+{
+	width: 26px;
+	height: 26px;
+	/*position: absolute;*/
+}
+#rightsign img
+{
+	width: 26px;
+	height: 26px;
+}
